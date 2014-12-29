@@ -15,16 +15,16 @@ The different ways to build strings
 Results are as follows:
 
 ---------Testing Buffers--------
-Name        Iterations       Duration                Memory
+Name	Iterations	Duration	Memory
 ======================================================================
-Buffer      1000             10ms                    1012964
-Array       1000             1ms                     1956796
-String      1000             0ms                     2172472
-Buffer      10000            65ms                    9334784
-Array       10000            17ms                    9368608
-String      10000            2ms                     10176344
-Buffer      100000           511ms                   90806704
-Array       100000           171ms                   94460844
-String      100000           57ms                    7799320
+Buffer	1000		10ms		1012964
+Array	1000		1ms		1956796
+String	1000		0ms		2172472
+Buffer	10000		65ms		9334784
+Array	10000		17ms		9368608
+String	10000		2ms		10176344
+Buffer	100000		511ms		90806704
+Array	100000		171ms		94460844
+String	100000		57ms		7799320
 
 See the test script: nodejs-buffers-string-performance.js
