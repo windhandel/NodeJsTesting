@@ -1,4 +1,4 @@
-This is directly based on Andrew Maurer's article below, but with a less nonsensical approach to utilizing nthe built-in
+This is directly based on Andrew Maurer's article below, but with a less nonsensical approach to utilizing the built-in
 Node.js Buffer.  Nobody should or would concatenate individual characters using Strings or into a Buffer.  This is an
 unlikely scenario compared to the far more likely scenario of many strings being concatenated onto each other.
 
