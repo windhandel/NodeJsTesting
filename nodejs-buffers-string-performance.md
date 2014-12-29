@@ -14,7 +14,6 @@ The different ways to build strings
 
 Results are as follows:
 
----------Testing Buffers--------
 Name	Iterations	Duration	Memory
 Buffer	1000		10ms		1012964
 Array	1000		1ms		1956796
