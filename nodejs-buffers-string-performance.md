@@ -25,4 +25,6 @@ Buffer	100000		511ms		90806704
 Array	100000		171ms		94460844
 String	100000		57ms		7799320
 
+In Summary: String concatenation seems to be the way to do many concatenations.  There doesn't seem to be a method to reduce the string concatenation time other than using the normal concatenation operator.
+
 See the test script: nodejs-buffers-string-performance.js
